@@ -1,0 +1,21 @@
+.root { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial; background: linear-gradient(180deg,#f6fbff 0%, #f3f7fb 100%); min-height:100vh; }
+.app { max-width:1100px; margin:32px auto; padding:24px; }
+header { display:flex; align-items:center; justify-content:space-between; margin-bottom:18px }
+header h1 { margin:0; font-size:20px; color:#0f172a }
+.topbar { display:flex; gap:12px; align-items:center }
+.card { background:#ffffff; padding:14px; border-radius:12px; box-shadow:0 8px 24px rgba(15,23,42,0.06) }
+.task-form { display:flex; gap:8px; margin-bottom:18px; }
+.task-form input, .task-form button, .task-form select { padding:10px 12px; border-radius:8px; border:1px solid #e6edf3 }
+.task-form input { flex:1 }
+.task-list { display:grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap:12px }
+.task-list .task { display:flex; flex-direction:column; justify-content:space-between; background:linear-gradient(180deg,#ffffff,#fbfdff); padding:14px; border-radius:12px; box-shadow:0 6px 18px rgba(15,23,42,0.04) }
+.task .title { font-weight:600; color:#0f172a }
+.task .meta { color:#334155; font-size:13px; margin-top:6px }
+.pill { padding:6px 8px; border-radius:999px; font-weight:600; font-size:12px }
+.pill.todo { background:#eef2ff; color:#3730a3 }
+.pill.in-progress { background:#fff7ed; color:#b45309 }
+.pill.done { background:#ecfdf5; color:#065f46 }
+.task .actions { display:flex; gap:8px; align-items:center; margin-top:10px }
+.btn { background:#0ea5a4; color:#fff; border:none; padding:8px 12px; border-radius:8px; cursor:pointer }
+.btn.ghost { background:transparent; color:#0f172a; border:1px solid #e6edf3 }
+

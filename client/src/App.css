@@ -1,0 +1,6 @@
+/* App specific styles */
+.stats { display:flex; gap:12px }
+.stat { padding:12px; border-radius:10px; background:linear-gradient(180deg,#fff,#fbfdff); box-shadow:0 6px 18px rgba(15,23,42,0.04); min-width:120px }
+.stat h4 { margin:0; font-size:14px; color:#0f172a }
+.stat p { margin:6px 0 0 0; font-weight:700; color:#0ea5a4 }
+
